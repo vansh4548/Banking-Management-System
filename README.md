@@ -41,8 +41,34 @@ A full-stack **Banking Management System** built using **Spring Boot**, **ReactJ
 - MySQL 8.0+
 - Maven
 
-### Backend Setup
-1. Clone the repository:
+### 🛠️ Backend Setup (Spring Boot)
+
+1. **Clone and navigate**:
    ```bash
-   git clone https://github.com/your-username/banking-management.git
-   cd banking-management/backend
+   git clone https://github.com/your-username/banking-system.git
+   cd banking-system/backend
+
+2. **Configure database (src/main/resources/application.properties):**:
+   ```bash
+   spring.datasource.url=jdbc:mysql://localhost:3306/bankdb
+   spring.datasource.username=your_db_username
+   spring.datasource.password=your_db_password
+3. **Build and run:**:
+   ```bash
+   mvn clean install
+   mvn spring-boot:run
+### Backend Server starts at http://localhost:8080
+
+### Frontend Setup (React.js)
+
+1. **Navigate to frontend folder**:
+   ```bash
+   cd ../frontend
+2. **Install Dependencies**:
+   ```bash
+   npm install
+3. **Configure environment (create .env file)**:
+  ```bash
+  REACT_APP_API_BASE_URL=http://localhost:8080/api
+
+
