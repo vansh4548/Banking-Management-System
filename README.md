@@ -2,7 +2,7 @@
 
 A full-stack **Banking Management System** built using **Spring Boot**, **ReactJS**, and **MySQL**. This project allows users to manage bank accounts with features like account creation, deposit, withdrawal, transaction history, and account deletion through a user-friendly interface.
 
-![Demo](https://via.placeholder.com/800x400?text=Banking+Management+System+Demo) 
+![Application Screenshot](screenshots/1737013888799.jpeg)
 *(Replace with actual screenshots)*
 
 ## 🚀 Features
